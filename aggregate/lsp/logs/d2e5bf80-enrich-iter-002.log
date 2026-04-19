@@ -1,0 +1,12 @@
+[2026-04-19T05:00:27Z] === ENRICH ITERATION 2 START | repo=choffmeister/roboto-fontface-bower sha=d2e5bf80 ===
+[2026-04-19T05:00:27Z] [iter=2] PHASE START: enrich repo=choffmeister/roboto-fontface-bower sha=d2e5bf80 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d2e5bf80-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d2e5bf806cc43db44e0bdd1a4261c311c0c7e0f7.nq.gz
+[2026-04-19T05:00:28Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-19T05:00:28Z] [iter=2] AST store loaded triples=0 load_secs=0 mem_mb=83 MB
+[2026-04-19T05:00:28Z] [iter=2] Step 2: Finding LSP targets mem_mb=83 MB
+[2026-04-19T05:00:28Z] [iter=2] LSP targets found call_sites=0 imports=0 extends=0 implements=0 secs=0
+[2026-04-19T05:00:28Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=84 MB
+[2026-04-19T05:00:28Z] [iter=2] Position index built positions=0 nodes_with_types=0 secs=0 mem_mb=84 MB
+[2026-04-19T05:00:28Z] [iter=2] Step 3: Starting LSP resolution mem_mb=84 MB already_completed_types=[] already_completed_files=0
+[2026-04-19T05:00:28Z] [iter=2] Step 5: Writing final enrichment file triples=0
+[2026-04-19T05:00:28Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d2e5bf806cc43db44e0bdd1a4261c311c0c7e0f7.nq.gz size_kb=0
+[2026-04-19T05:00:28Z] [iter=2] PHASE END: enrich elapsed_s=1 elapsed_min=0.0 total_triples=0
